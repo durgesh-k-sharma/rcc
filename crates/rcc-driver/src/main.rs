@@ -126,7 +126,7 @@ fn compile(options: CliOptions) -> i32 {
     );
 
     if diags.has_errors() {
-        diags.report_all(&mut std::io::stderr()).ok();
+        rcc_support::render_diagnostics(&diags, &mut std::io::stderr(), None).ok();
         return 1;
     }
 

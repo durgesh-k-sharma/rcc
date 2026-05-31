@@ -2,3 +2,6 @@
 name = "rcc-support"
 version.workspace = true
 edition.workspace = true
+
+[dependencies]
+atty = "0.2"

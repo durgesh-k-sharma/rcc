@@ -11,4 +11,4 @@ pub mod diagnostics;
 
 pub use source::{FileId, SourceFile, SourceManager, Span};
 pub use ident::{Ident, Interner};
-pub use diagnostics::{Diagnostic, Severity, Diagnostics};
+pub use diagnostics::{Diagnostic, Severity, Diagnostics, render_diagnostics, diagnostics_to_string};
