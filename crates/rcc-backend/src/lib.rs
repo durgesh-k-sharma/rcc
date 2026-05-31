@@ -3,4 +3,6 @@
 
 #![allow(dead_code)]
 
+pub mod abi;
+
 pub const VERSION: &str = env!("CARGO_PKG_VERSION");
