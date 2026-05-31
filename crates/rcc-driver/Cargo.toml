@@ -1,0 +1,14 @@
+[package]
+name = "rcc-driver"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "rcc"
+path = "src/main.rs"
+
+[dependencies]
+rcc-support = { path = "../rcc-support" }
+rcc-frontend = { path = "../rcc-frontend" }
+rcc-ir = { path = "../rcc-ir" }
+rcc-backend = { path = "../rcc-backend" }

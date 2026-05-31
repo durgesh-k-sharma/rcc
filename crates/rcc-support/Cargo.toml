@@ -1,0 +1,4 @@
+[package]
+name = "rcc-support"
+version.workspace = true
+edition.workspace = true

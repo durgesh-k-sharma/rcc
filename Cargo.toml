@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/rcc-support",
+    "crates/rcc-frontend",
+    "crates/rcc-ir",
+    "crates/rcc-backend",
+    "crates/rcc-driver",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"

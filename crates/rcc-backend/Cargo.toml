@@ -1,0 +1,8 @@
+[package]
+name = "rcc-backend"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+rcc-support = { path = "../rcc-support" }
+rcc-ir = { path = "../rcc-ir" }
